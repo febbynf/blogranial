@@ -37,7 +37,7 @@ gem 'bootstrap-sass'
 # gem 'capistrano-rails', group: :development
 
 gem 'bootstrap', '~> 4.2.1'
-
+gem 'friendly_id', '~> 5.2.4' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
