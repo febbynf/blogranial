@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  get 'startup/index'
   root to: 'posts#index'
   resources :posts
   
